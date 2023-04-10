@@ -27,7 +27,7 @@
             <select name="modalidad" v-model="modalidad">
                 <option value="" selected>Seccione la modalidad</option>
                 <option value="Presencial">Presencial</option>
-                <option value="Viryual">Virtual</option>
+                <option value="Virtual">Virtual</option>
             </select>
         </label>
         <br>
@@ -43,7 +43,7 @@
             </ul>
         </label>
         <label for="check" style="display: flex; flex-direction: row;">
-            <input type="checkbox" name="check" v-model="documentacion"> Entrego la documentacion para el registro.
+            <input type="checkbox" name="check" v-model="documentacion"> Entregó la documentación para el registro.
         </label>
         <br>
         <label for="registrar">
