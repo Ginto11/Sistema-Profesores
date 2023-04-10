@@ -194,6 +194,7 @@
             },
 
             eliminar($event){
+                console.log($event);
                 let id = $event.target.__vnode.key;
 
                 this.profesoresRegistrados.forEach((profesor, index) => {
@@ -228,6 +229,7 @@
         flex-direction: column;
         border-radius: 10px;
         margin-top: 15px;
+        box-shadow: 0 0 10px #000;
     }
 
     form select{
