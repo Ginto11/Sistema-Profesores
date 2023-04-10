@@ -194,9 +194,8 @@
             },
 
             eliminar($event){
-                console.log($event);
-                let id = $event.target.__vnode.key;
-
+                let id = $event.target.parentElement.parentElement.cells[0].textContent;
+                
                 this.profesoresRegistrados.forEach((profesor, index) => {
                     if(profesor.id == id){
                         this.profesoresRegistrados.splice(index, 1);
