@@ -84,6 +84,8 @@
         </tbody>
     </table>
 
+    <h4 class="autoria">Desarrollado por: Nelson Muñoz</h4>
+
 </template>
 
 <script lang="js">
@@ -352,6 +354,17 @@
     .contenedor-img img{
         width: 100%;
         filter: drop-shadow(0 0 3px #25D366);
+    }
+
+    .autoria{
+        background-color: #011C27;
+        display: inline;
+        position: fixed;
+        top: 0;
+        right: 0;
+        margin: 7px;
+        padding: 5px;
+        border-radius: 5px;
     }
 
 </style>
