@@ -165,6 +165,8 @@
                 this.nombre = "";
                 this.apellido = "";
                 this.documentacion = false;
+                this.modalidad = "";
+                this.edad = "";
 
             },
 
@@ -195,7 +197,7 @@
 
             eliminar($event){
                 let id = $event.target.parentElement.parentElement.cells[0].textContent;
-                
+
                 this.profesoresRegistrados.forEach((profesor, index) => {
                     if(profesor.id == id){
                         this.profesoresRegistrados.splice(index, 1);
